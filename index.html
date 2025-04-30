@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Luther King Jr.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Martin Luther King Jr.</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#citacoes">Citações</a></li>
+                <li><a href="#imagens">Imagens</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="historia">
+            <p>Vamos aprender um pouco...  </p>
+            <img src="perfil.jpg" alt="Martin Luther King Jr." class="perfil-image" />
+            <h2>História</h2>
+            <p>Martin Luther King Jr. nasceu em Atlanta, Geórgia, em 15 de janeiro de 1929 e desde pequeno aprendeu a valorizar a dignidade das pessoas e a lutar pela justiça, esses valores moldaram sua trajetória e o tornaram uma figura central no movimento pelos direitos civis nos Estados Unidos. Não era apenas um líder, mas um verdadeiro sonhador que, em seu famoso discurso "Eu Tenho um Sonho", proferido durante a Marcha sobre Washington em 1963, compartilhou uma visão de um futuro onde as pessoas seriam julgadas pelo que são e não pela cor da pele, esse discurso tocou o coração de muitos e se tornou um símbolo da luta por igualdade.
+
+                Acreditava firmemente na não-violência, mesmo diante de grandes opressões, sempre escolheu o caminho da paz e sua coragem fez dele um símbolo de esperança, não se limitou a organizar protestos, mas conectou-se com as pessoas, ouviu suas histórias e compartilhou suas lutas. Além de lutar contra a segregação racial, também se preocupava com a pobreza e a guerra, compreendia que a busca por direitos civis estava ligada à luta por justiça econômica e, nos últimos anos de sua vida, começou a falar sobre a necessidade de mudanças mais amplas, como acabar com a pobreza e se opor à Guerra do Vietnã, sonhando com um mundo onde todos pudessem viver com dignidade.
+                
+                Infelizmente, sua vida foi interrompida em 4 de abril de 1968, quando foi assassinado em Memphis, Tennessee, mas seu legado continua vivo e o Dia de Martin Luther King Jr. é uma oportunidade para refletir sobre seus ensinamentos e lembrar que, mesmo em tempos difíceis, a esperança e a determinação podem levar a mudanças significativas. A história desse grande líder nos lembra que todos podemos fazer a diferença e que, independentemente dos desafios enfrentados, é fundamental lutar pelo que é certo e acreditar em um futuro melhor.</p>
+        </section>
+
+        <section id="citacoes">
+            <h2>Citações</h2>
+
+            <blockquote id="frase">
+                "A injustiça em qualquer lugar é uma ameaça à justiça em todo lugar."
+            </blockquote>
+            <button onclick="novaFrase()">Nova Citação</button>
+        </section>
+
+        <section id="imagens">
+            <h2>Imagens</h2>
+            <div class="image-carousel">
+                <img src="sua-imagem-3.jpg" class="active" />
+                <img src="sua-imagem-4.jpg" />
+                <img src="sua-imagem-1.jpg" />
+                <img src="sua-imagem-2.jpg" />
+                <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+                <button class="next" onclick="changeImage(1)">&#10095;</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Feito por Victor para Esmael.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
